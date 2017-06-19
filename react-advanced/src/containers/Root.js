@@ -7,7 +7,7 @@ import Routes from '../routes'
 const Root = ({ store, history }) => (
   <Provider store={store}>
     <ConnectedRouter history={history}>
-      { Routes }
+      { Routes(store) }
     </ConnectedRouter>
   </Provider>
 )

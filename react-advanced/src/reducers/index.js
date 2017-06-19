@@ -4,9 +4,9 @@ import login from './login'
 //import todos from './todos'
 
 const rootReducer = combineReducers({
-  login,
 //  todos,
-  routing
+  routing,
+  auth: login,
 })
 
 export default rootReducer
