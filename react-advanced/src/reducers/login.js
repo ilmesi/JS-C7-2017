@@ -4,7 +4,7 @@ const initialState = {
   username: '',
   password: '',
   token: '',
-  isFetching: null
+  isFetching: false
 }
 
 const loginReducer = (state = initialState, action) => {

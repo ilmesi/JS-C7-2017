@@ -23,7 +23,7 @@ class Login extends Component {
     dispatch(updatePassword(event.target.value))
   }
   render() {
-    const { dispatch, username, password, isFetching } = this.props
+    const { username, password, isFetching } = this.props
     return (
       <div>
         Login
