@@ -1,7 +1,7 @@
 import React from 'react';
 import TodoList from './TodoList';
 
-export default class Home extends React.Component {
+export default class CreateForm extends React.Component {
   render() {
     const { submit, text, updateText } = this.props;
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './Home';
 
-const render = Component => {
+const render = () => {
   ReactDOM.render(
     <Home name='Aloha!' />,
     document.getElementById('root')
